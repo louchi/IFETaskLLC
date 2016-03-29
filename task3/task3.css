@@ -1,0 +1,85 @@
+body{
+	margin: 0;
+	padding: 20px;
+}
+
+body img{
+	width: 80px;
+	height: 80px;
+}
+
+.container{
+	min-height: 530px;
+	background-color: #eee;
+	border: 1px solid #999;
+	padding: 20px;
+	overflow: auto;
+	margin: 0 auto;
+	position: relative;
+	
+} 
+
+.left{
+	width: 160px;
+	float: left;
+	padding: 20px;
+	border: 1px solid #999;
+	background-color: #fff;
+}
+
+.team_logo{
+	border:1px solid #999;
+	float: left;
+}
+
+.team_name{
+	font-size: 25px;
+	font-weight: bold;
+	font-family: 'forte';
+	text-align: right;
+	
+}
+
+.right{
+	border: 1px solid #999;
+	float: right;
+	width: 80px;
+	padding: 0  20px 20px 20px;
+	background-color: #fff;
+	position: absolute;
+	top:20px;
+	right: 20px;
+
+}
+
+.right img{
+	margin-top: 20px;	
+	border: 1px solid #999;
+	display: block;
+}
+
+.middle{
+	border: 1px solid #999;
+	margin-left: 220px;
+	margin-right: 140px;
+	padding: 20px;
+	background-color: #fff;
+	font-family: "华文行楷";
+}
+
+.middle p{
+	text-indent: 2em;
+}
+
+.middle .signature{
+	text-indent: 16em;
+}
+
+.middle img{
+	border-radius: 50px;
+	background-color: #ccc;
+}
+
+
+
+
