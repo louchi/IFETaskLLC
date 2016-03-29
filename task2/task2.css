@@ -1,0 +1,183 @@
+
+body{
+	font-family: '微软雅黑';
+	background-color: #dedede;
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	list-style: none;
+}
+
+.subtitle, .author{
+	color: #6f624f;
+}
+
+/* 导航栏格式设置 */
+.nav{
+	width: 100%;
+	height: 60px;
+	background-color: #333;
+	overflow: hidden;
+}
+
+.nav .logo{
+	float: left;
+	width: 120px;
+	height: 40px;
+	margin: 10px 0 10px 40px;
+	background-image: url(../picture/bd_logo.png);
+}
+
+.nav .nav_list{
+	float: right;
+	margin: 16px 20px 10px 0;
+}
+
+.nav_list li{
+	float: left;
+	height: 40px;
+	line-height: 20px;
+	margin-right: 20px;
+	color: #000;
+}
+
+.nav_list li a{
+	color: #fff;
+	text-decoration: none;
+	font-size: 12px;
+}
+
+/* 设置文章样式 */
+article{
+	background-color: #fff;
+	padding: 30px 20px;
+	margin: 20px 20px 0 2px;
+	box-shadow: 2px 2px 2px 0;
+}
+
+.main_text{
+	text-indent: 2em;
+}
+
+/* 设置图片格式 */
+.picture{
+	border: 1px solid #cbcbcb;
+	width: 150px;
+	padding: 0 0 10px 0;
+	text-align: center;
+	margin-top: 15px;
+}
+
+.picture figcaption{
+	text-align: center;
+	line-height: 2.5em;
+}
+
+.picture img{
+	width: 80%;
+}
+
+/* 设置文章中的table格式 */
+article table{
+	width: 100%;
+	border-spacing: 0;
+	border-color: #ccc;
+	font-size: 12px;
+	line-height: 2em;
+}
+article table  tr, td, th{
+	padding-left: 4px;
+}
+
+article table thead{
+	background-color: #333;
+	color: #fff;
+	text-align: left;
+}
+
+article table tfoot{
+	background-color: #ccc;
+}
+
+/* 设置侧栏的格式 */
+.sidebar{
+	margin: 40px 40px 10px 2px;
+	background-color: #fff;
+	box-shadow: 2px 2px 2px 0;
+	padding: 10px 20px 10px 20px;
+}
+
+.sidebar h3{
+	border-left: 4px solid #ccc;
+	padding-left: 8px;
+}
+
+/* 设置表单form格式 */
+.form_text{
+	overflow: hidden;
+
+}
+
+.form_text .form_group{
+	width: 100%;
+	margin-top: 15px;
+	font-size: 13px;
+}
+
+.form_text .form_group .group_name{
+	text-align: right;
+	width: 30%;
+	display: inline-block;
+	vertical-align: top; /* 是span元素与textarea上端对齐 */
+	
+}
+
+.form_text .form_group .group_value{
+	display: inline-block;
+	width: 14%;
+	
+}
+
+.form_text  .tip{
+	text-align: left;
+	width: 69.5%;
+	float: right;
+	color: #ccc;
+	font-size: 13px;
+	margin-top: 5px;
+}
+
+button{
+	width: 100%;
+	margin: 10px auto 15px auto ;
+	height: 45px;
+	background: #0066cc;
+	border-style: none;
+	border-radius: 8px;
+
+	font-size: 15px;
+	color: #fff;
+	font-weight: bold;
+}
+
+textarea{
+	font-size: 15px;
+}
+
+footer{
+	text-align: center;
+	background-color: #000;
+	color: #fff;
+	font-size: 12px;
+	height: 60px;
+	padding-top: 32px;
+	margin: 10px 3px 5px 0;
+}
+
+/*.group_value input:checked
+{
+	background-color: #ccddff;
+}
+*/
