@@ -1,0 +1,31 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.main_box{
+	width: 400px;
+	height: 200px;
+	background-color: #ccc;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -200px;
+	margin-top: -150px;
+}
+
+.cir_lefttop, .cir_rightbottom{
+	background-color: #fc0;
+	width: 50px;
+	height: 50px;
+}
+
+.cir_lefttop{
+	border-bottom-right-radius: 100px;
+}
+
+.cir_rightbottom{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-top-left-radius: 100px;
+}
