@@ -13,11 +13,25 @@ body img{
 	background-color: #eee;
 	border: 1px solid #999;
 	padding: 20px;
-	overflow: auto;
+	overflow: hidden; /* overflow清除浮动 */
 	margin: 0 auto;
 	position: relative;
 	
 } 
+
+/* 使用clearfix清除浮动 */
+/*.container:before, .container:after{
+	content: "";
+	display: table;
+}
+
+.container:after{
+	clear: both;	
+}
+
+.container{
+	*zoom: 1;
+}*/
 
 .left{
 	width: 160px;
